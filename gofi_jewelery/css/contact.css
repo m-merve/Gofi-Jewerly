@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{
+    font-size:62.5%;
+	overflow-y:scroll;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+    border: 12px solid #9b9595;
+}
+body{
+	background-color: rgb(248, 248, 248) !important;
+}
+.clear{
+    clear: both;
+}
+.site-header {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.site-branding {
+	margin-bottom:1em;
+	text-align:center;
+}
+.site-title {
+	font-family:'Quattrocento Sans',sans-serif;
+	font-size:60px;
+	font-weight:300;
+	letter-spacing:2px;
+	line-height:1;
+	margin-top:25px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	letter-spacing: 2px;
+    text-align: center;
+    text-transform: none;
+    line-height: 1;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.site-title{
+	font-family: 'Herr Von Muellerhoff';
+}
+.site-title a {
+	text-decoration:none !important;
+	color: black !important;
+}
+.site-description {
+    font-family: none !important;
+	font-size:14px;
+	font-style:italic;
+	font-weight:300;
+	margin-top:-5px;
+	margin-bottom:25px;
+	padding-top: 0;
+}
+/*Navigation Bar*/
+.nav-bar{
+    background-color: none;   
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+ul.menu{
+   text-align: center;
+   margin-inline: 10rem;
+   border-top:1px rgb(51, 51, 51) solid;
+   border-bottom: 1px rgb(51, 51, 51) solid;
+}
+li.menu-icon{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+a.text-menu{
+    text-decoration: none !important;
+    color: black !important;
+    padding: 20px;
+} 
+a.text-menu:hover{
+    background-color: white !important;
+}
+/*Container Section*/
+.content-container{
+    display: block;
+    width: 90%;
+    margin-inline: auto;
+}
+h1.title{
+    margin-top: 10px;
+    font-size: 42px;
+    padding-bottom: 10px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+h2.phone, h2.address-info, h2.mail-info{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+.maps{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+iframe {
+    width: 85%;
+    height: 650px;
+}
+p.content{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 25px;
+}
+a.insta{
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+.mail-table{
+    display: block;
+    text-align: center;
+}
+form {
+    width: 100%;
+    display: block;
+}
+table{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+input.table-list{
+    width: 40rem;
+    height: 5rem;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+textarea{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rgb(224, 224, 224);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+}
+input{
+    background-color: rgb(224, 224, 224);
+    border: none;
+}
+input::placeholder, textarea::placeholder{
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+input.button{
+    background-color: #333;
+    width: 100px;
+    padding: 10px;
+    float: right;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+input.button:hover{
+    background-color: rgb(102, 102, 102);
+}
+/*Footer*/
+footer{
+    margin-top: 20px;
+    padding: 2em 0;
+    text-align: center;
+    background-color: #333;
+    color: #999;
+}
+a.copyright{
+    text-decoration: none !important;
+    color: #999;
+    font-size: 12px;
+}
+h1.footer-logo{
+    margin-bottom: 5px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    form {
+        width: 100%;
+        display: block;
+    }
+    input.table-list{
+        width: 100%;
+        height: 5rem;
+        padding-left: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        display: block;
+    }
+    textarea{
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: rgb(224, 224, 224);
+        border: none;
+        border-radius: 10px;
+        display: block;
+        overflow: auto;
+        width: 100%;
+        height: 160px;
+        margin-bottom: 5px !important;
+    }
+    table{
+        display: inline-block;
+    }
+}
